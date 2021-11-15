@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+
+.users{
+ width:340px;
+ background-color: black;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.user-container{
   display: flex;
-  flex-direction: column;
+  flex-direction:row;
+  flex-wrap: wrap;
+  gap:50px;
+  justify-content: center;
+  
+}
+
+.user-pic{
+  height: 540px;
+  width:340px;
+  object-fit: cover;
+
+}
+
+.mid{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.born{
+  font-size: 18px;
+  color:blanchedalmond;
+}
+
+.name{
+  font-size: 24px;
+  color:blanchedalmond;
+
+}
+
+.summary{
+  text-align:left;
+  color:blanchedalmond;
+}
+
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: black;
+}
+
+.addcricketers{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  margin:20px;
+  flex-wrap:wrap;
+  background-color: blanchedalmond;
+}
+
+nav{
+  font-size:30px;
+  display:flex;
+  gap:20px;
+  margin-bottom: 2rem;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.buttons{
+  display: flex;
+  gap:40px;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
